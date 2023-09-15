@@ -1,0 +1,52 @@
+body{
+    background-color: azure;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+ p a:hover{
+ text-decoration: underline;
+ background-color:rgb(250, 100, 50) ;
+}
+#categ{
+    text-align: center;
+    font-size: 30px;
+    background-color: rgb(250, 100, 50);
+}
+.intro{
+    height: 300px;
+    background-image: url(cookbook.jpg);
+}
+
+.intro2{
+    /* background-image: url(cookbook.jpg); */
+    font-size: 50px;
+    text-align: centre;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: absolute;
+    top: 100px;
+    left:  400px;
+    
+}
+
+
+ .image{
+    content: "";
+    clear: both;
+    display: flex;
+   
+}
+
+.image3{
+    float: left;
+    width: 350px;
+    height: 200px;
+    margin: 20px; 
+    text-align: center;
+    object-fit: cover;
+
+    
+}
